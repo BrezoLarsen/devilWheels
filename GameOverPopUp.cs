@@ -46,8 +46,7 @@ public class GameOverPopUp : MonoBehaviour {
 		IEnumerator SceneCharge()
 		{
 			// Hacemos que espere un segundo antes de cargar la escena
-			yield return new WaitForSeconds(0);
-			fadeOutIMG.CrossFadeAlpha(1,0.3f,false);
+			yield return new WaitForSeconds(1);
 		
 			// Cargamos la escena
 			SceneManager.LoadScene("Intro");

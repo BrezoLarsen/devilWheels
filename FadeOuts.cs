@@ -9,6 +9,7 @@ public class FadeOuts : MonoBehaviour {
 
 	// Use this for initialization
 	public void Start () {
+		fadeOutIMG.gameObject.SetActive(true);
 		fadeOutIMG.CrossFadeAlpha(0,0.5f,false);
 	}
 	public void Stop () {
